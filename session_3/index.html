@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week2 Labs Starter</title>
+    <!-- linked css -->
+    <link rel="stylesheet" type="text/css" href="/peckham_daz/session_3/styles.css">
+</head>
+
+<body>
+    <div>
+        <!-- 2a: alt attribute added -->
+        <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA5NjcxNTd8&ixlib=rb-4.0.3&q=80&w=400"
+            alt="Three loaves of bread">
+        <!-- 2b: nav tag added -->
+        <nav>
+            <a href="about.html">Click here</a>
+            <a href="services.html">Our Services</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </div>
+
+    <div>
+        <!-- 2b: header tag added -->
+        <header>
+            <!-- 2c: h1 tag added -->
+            <h1>Bakery</h1>
+        </header>
+        <!-- 2b: section tag added -->
+        <!-- 3b: about-section id styling added -->
+        <section id="about-section">
+            <!-- 2c: h2 tag added -->
+            <h2>Our Mission</h2>
+            <p>Our mission is to provide high-quality bread products and services to our customers.</p>
+        </section>
+        <!-- 2b: section tag added -->
+        <section>
+            <div> Contact Us</div>
+            <form action="/submit" method="post">
+                <div>
+                    <!-- 2e: username label tag added -->
+                    <label>Username</label>
+                    <input type="text" name="username">
+                </div>
+                <div>
+                    <!-- 2e: email label tag added -->
+                    <label>Email</label>
+                    <input type="email" name="email">
+                </div>
+                <div>
+                    <button class="btn" type="submit">Submit</button>
+                </div>
+                <!-- 3c: new button added with button class styling -->
+                <div>
+                    <button class="btn-reset btn" type="reset">Reset</button>
+                </div>
+            </form>
+        </section>
+    </div>
+    <!-- 2g: Adding ARIA, although not an ARIA function -->
+    <button class="btn" type="button">Menu</button>
+    <video controls>
+        <!-- 2d: more descriptive lik text added -->
+        <source src="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            type="Rick Astley - Never Gonna Give You Up (Official Music Video)/mp4">
+        <!-- 2f: video caption added. Must be in video tag -->
+        <caption>Never Gonna Give You Up</caption>
+    </video>
+    <h6>
+        <p>&copy; 2024 Our Company</p>
+    </h6>
+    <section>
+        <button class="btn" type="button" id="add-paragraph">Add paragraph</button>
+    </section>
+</body>
+
+</html>
