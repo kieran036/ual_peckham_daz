@@ -61,7 +61,7 @@ paragraph.style.display = "none";
 // Adds the action which will be monitored and the conditions to display the DOM element, here we add a click event listener to the element.
 button1.addEventListener("click", displayParagraph);
 
-// Defines function to show element upon recieving the user interaction. If it's already clicked nothing further happens.
+// Defines function to show element upon recieving the user interaction. If it's clicked and hidden then show, if it's clicked and shown then hide.
 function displayParagraph() {
     console.log("button clicked")
 
