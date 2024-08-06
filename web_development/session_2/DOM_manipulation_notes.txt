@@ -1,0 +1,36 @@
+// 1. Define in html the DOM element which will be assessed for a condition i.e. the element the user interacts with.
+##
+<button id="button">Click Me!</button>
+##
+
+// 2. Define in html the DOM element to manipulate. Here, it is to hide or show id="paragraph".
+##
+<p id="paragraph">Hello World!!!</p>
+##
+
+// 3. Define in js the DOM element from html that will be interacted with by the user
+##
+const btn = document.getElementById('btn');
+##
+
+// 4. Define in js the output to inject if an interaction condition is met target
+##
+const target = document.getElementsByClassName('target');
+##
+
+// 5. Add an event listener to your button
+##
+btn.addEventListener('click',function() {
+  // You could write a function directly in your event listener
+  console.log('hi')
+  // More code here
+});
+##
+
+// ... or you can reference a function from somewhere else in your code by calling/invoking it e.g 'addParagraph'
+
+##
+function addParagraph() {
+  console.log('btn clicked');
+}
+##
