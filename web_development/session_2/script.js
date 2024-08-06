@@ -73,7 +73,8 @@ function displayParagraph() {
     }
 }
 
-//Task 5b:
+//Task 5b: Practice implementing basic form validation using JavaScript. Task: Create a form with input fields for name and email. Validate that both fields are filled out when the form is submitted. Display an error message if any field is empty.
+
 
 /*Task 6:
     HTML Structure: Basic HTML setup for the to-do list.
