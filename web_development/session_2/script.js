@@ -51,7 +51,7 @@ for (food in favouriteFoods) {
 // Task 5a: Learn how to manipulate HTML elements using JavaScript. Task: Create a button and a paragraph in your existing HTML document. When the button is clicked, change the text content of the paragraph to display a personalized message.
 
 // Defines the DOM element from the HTML using Id
-const button1 = document.getElementById("button");
+const button1 = document.getElementById("button1");
 
 // Defines the DOM element from html that will be manipulated if a condition met.
 const paragraph = document.getElementById("paragraph");
@@ -63,7 +63,7 @@ button1.addEventListener("click", displayParagraph);
 
 // Defines function to show element upon recieving the user interaction. If it's clicked and hidden then show, if it's clicked and shown then hide.
 function displayParagraph() {
-    console.log("button clicked")
+    console.log("button1 clicked")
 
     if (paragraph.style.display === "none") {
         // The above is essentially CSS denoted by .style
@@ -74,6 +74,32 @@ function displayParagraph() {
 }
 
 //Task 5b: Practice implementing basic form validation using JavaScript. Task: Create a form with input fields for name and email. Validate that both fields are filled out when the form is submitted. Display an error message if any field is empty.
+
+const submit = document.getElementById("submit");
+var fname = document.getElementById("fname").value;
+var lname = document.getElementById("lname").value;
+
+const form_error = document.getElementById("form_error");
+form_error.style.display = "none";
+
+submit.addEventListener("click", valid_input_check);
+console.log("after")
+
+function valid_input_check() {
+    if (fname == "")
+        alert("First is empty");
+    return false;
+}
+
+/*function valid_input_check2() {
+        if (Boolean(fname) == true && Boolean(lname) == true) {
+            form_error.style.display = "block"
+        } else {
+            console.log("else")
+            //form_error.style.display = "none"
+}}
+            */
+
 
 
 /*Task 6:
