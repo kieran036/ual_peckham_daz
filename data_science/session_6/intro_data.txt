@@ -1,0 +1,3 @@
+my_name = 'Kieran'
+city = 'London'
+hobbies = ['Squash', 'Gardening', 'Swimming']
