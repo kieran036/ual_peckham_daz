@@ -1,8 +1,8 @@
 # Peckham Digital Accelerator Zone Course repo
 
-Peckham Digital Accelerator Zone (DAZ), an upskilling course collaboration between the UAL Creative Computing Institute, UKBlackTech, and the London Borough of Southwark. This course is part of the new nationwide Click Start training programme developed by the Institute of Coding (IoC) and funded by Nominet.
+### Peckham Digital Accelerator Zone (DAZ), an upskilling course collaboration between the UAL Creative Computing Institute, UKBlackTech, and the London Borough of Southwark. This course is part of the new nationwide Click Start training programme developed by the Institute of Coding (IoC) and funded by Nominet.
 
-Upskilling on various digital skills and building a portolio
+Upskilling on various digital skills and building a portolio:
 - Web Development (incl. HTML, CSS, JavaScript)
-- Data Science (incl. SQL, Python, GitHub)
+- Data Science (incl. SQL, Python, git, GitHub)
 - Natural Language Processing (Neural Networks)
