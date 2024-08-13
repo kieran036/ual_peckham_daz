@@ -1,0 +1,22 @@
+
+
+  <h3>Form Validation</h3>
+      <form id="myForm" onsubmit="return validateForm()">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <div id="error1" class="error"></div><br><br>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email">
+        <div id="error2" class="error"></div><br><br>
+        <button type="submit">Submit</button>
+    </form>
+
+How does the computer know which submit we’re referring to?
+
+
+/Users/Kieran/Documents/Projects/personal/ual_peckham_daz/data_science/daz-venv/bin/activate
+
+
+Installation
+- I have python3 and miniconda already on Mac do I need to install python too
+- I created the venv but vs code couldn’t find the interpretter
