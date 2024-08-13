@@ -20,3 +20,6 @@ How does the computer know which submit we’re referring to?
 Installation
 - I have python3 and miniconda already on Mac do I need to install python too
 - I created the venv but vs code couldn’t find the interpretter
+
+Answer
+- Try install from VS code terminal
