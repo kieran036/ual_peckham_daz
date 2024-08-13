@@ -1,0 +1,7 @@
+Last cell of data_science/session_7/basic_webscraper_demo_edited.ipynb doesn't work
+Attempts
+
+1. nstalled/imported import io as optional package to change
+df=pd.read_html(str(tabledata)) to df=pd.read_html(io.StringIO(str(tabledata)))
+
+2. Installed dependency lxml but still issue.
