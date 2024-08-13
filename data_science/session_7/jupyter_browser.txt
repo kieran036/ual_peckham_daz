@@ -1,0 +1,12 @@
+
+# Exit python environment
+exit
+
+# Change directory to where venv is
+cd /Users/Kieran/Documents/Projects/personal/ual_peckham_daz/data_science
+
+# Activate venv
+./daz-venv/bin/activate
+
+# Launch jupyter
+jupyter-notebook
