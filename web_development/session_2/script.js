@@ -80,14 +80,17 @@ var fname = document.getElementById("fname").value;
 var lname = document.getElementById("lname").value;
 
 const form_error = document.getElementById("form_error");
-form_error.style.display = "none";
+// form_error.style.display = "none";
 
 submit.addEventListener("click", valid_input_check);
 console.log("after")
 
 function valid_input_check() {
     if (fname == "")
-        alert("First is empty");
+        console.log("in")
+    alert("First is empty");
+    console.log("out")
+
     return false;
 }
 
