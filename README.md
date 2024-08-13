@@ -7,4 +7,6 @@ Upskilling on various digital skills and building a portolio:
 - Data Science (incl. SQL, Python, git, GitHub)
 - Natural Language Processing (Neural Networks)
 
-Resources at https://github.com/peckham-daz/24-intro-to-data-science
+Resources at:
+- https://github.com/peckham-daz/24-adv-creative-coding
+- https://github.com/peckham-daz/24-intro-to-data-science
