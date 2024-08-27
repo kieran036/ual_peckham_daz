@@ -1,0 +1,1 @@
+Session focused on introduction to Python language, basic data structures, functions, and data manipulation.
