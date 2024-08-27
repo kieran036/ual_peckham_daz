@@ -1,0 +1,1 @@
+Session focused on introduction to pandas package, pandas dataframe manipulation, data cleaning, and web scraping using Python.
