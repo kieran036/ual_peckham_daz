@@ -1,0 +1,1 @@
+Session focused on further introduction to data structures, data exploration, data manipulation, data analysis, and data visualisation, using Python, and code reviewing using features such as forking, cloning, push, pull requests etc.
