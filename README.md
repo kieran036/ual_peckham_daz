@@ -4,7 +4,7 @@
 
 Upskilling on various digital skills and building a portolio:
 - Web Development (incl. HTML, CSS, JavaScript)
-- Data Science (incl. SQL, Python, git, GitHub)
+- Data Science (incl. Python, Git, GitHub, Webscraping, Data Ethics)
 - Natural Language Processing (Neural Networks)
 
 Resources at:
