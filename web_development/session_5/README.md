@@ -1,0 +1,1 @@
+Session was solely labs to work on project submission.
