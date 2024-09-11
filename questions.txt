@@ -48,4 +48,5 @@ Issue with plotly installation
 
 #### Session 10
 
-import api_key issue
+q1. import api_key issue
+q2. Is response_json['items'] a convention or specific to the example?
