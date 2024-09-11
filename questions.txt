@@ -43,3 +43,9 @@ Try reinstalling package
 #### Session 8
 
 Issue with plotly installation
+
+
+
+#### Session 10
+
+import api_key issue
