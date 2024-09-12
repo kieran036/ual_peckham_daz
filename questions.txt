@@ -1,3 +1,6 @@
+daz-venv location -> /Users/Kieran/Documents/Projects/personal/ual_peckham_daz/data_science/daz-venv/bin/activate
+
+
 #### Session 2
 
   <h3>Form Validation</h3>
@@ -11,43 +14,22 @@
         <button type="submit">Submit</button>
     </form>
 
-How does the computer know which submit we’re referring to?
+  How does the computer know which submit we’re referring to?
 
 
-/Users/Kieran/Documents/Projects/personal/ual_peckham_daz/data_science/daz-venv/bin/activate
+#### Session 6
 
-
-Installation
-- I have python3 and miniconda already on Mac do I need to install python too
-- I created the venv but vs code couldn’t find the interpretter
-
-Answer
-- Try install from VS code terminal
-
+  q1. I have python3 and miniconda already on Mac do I need to install python too - Resolved. No, just need to connect the kernel to the interpretter.
+  q2. I created the venv but vs code couldn’t find the interpretter. - Resolved. Strange issue but work around found using jupyter in the browser, see data_science/session_7/jupyter_browser_notes.txt notes
 
 
 #### Session 7
 
-Last cell of data_science/session_7/basic_webscraper_demo_edited.ipynb doesn't work
-Attempts
-
-1. Installed/imported import io as optional package to change
-df=pd.read_html(str(tabledata)) to df=pd.read_html(io.StringIO(str(tabledata)))
-
-2. Installed dependency lxml but still issue.
-
-Try reinstalling package
-
-
-
-#### Session 8
-
-Issue with plotly installation
-
+  q1. Last cell of data_science/session_7/basic_webscraper_demo_edited.ipynb doesn't work. - To try reinstalling package with anaconda, miniforge, and then pip.
 
 
 #### Session 10
 
-q1. import api_key issue
-q2. Is response_json['items'] a convention or specific to the example?
-q3. To reupload with code snippet outputs
+  q1. import api_key issue - Resolved. Unsure how, it worked next day.
+  q2. Is response_json['items'] a convention or specific to the example? - Resolved documentation said to
+  q3. To reupload with code snippet outputs - Resolved. Session lead reuploaded.
