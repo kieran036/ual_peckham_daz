@@ -50,3 +50,4 @@ Issue with plotly installation
 
 q1. import api_key issue
 q2. Is response_json['items'] a convention or specific to the example?
+q3. To reupload with code snippet outputs
